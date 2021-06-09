@@ -15,6 +15,9 @@ p {
     margin: auto; 
   grid-gap: 150px;
     grid-template-rows: 250px 160px;
+  grid-template-areas: 
+"top top"
+    "bottomleft bottomright";
     border: 2px solid red;
   justify-content: center;
   }
@@ -26,6 +29,7 @@ p {
     border: 1px solid #5B91E2;
     }
 .header{
+  grid-area: top
   color: #1864Bf; 
   font-size: 40px;
   text-align: center;
@@ -34,5 +38,6 @@ p {
   background-color: #B6C5D7
 }
 .content{
+grid-area: bottomleft;
 color: #232528;
 }
