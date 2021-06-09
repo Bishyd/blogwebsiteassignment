@@ -10,12 +10,13 @@ p {
   color: #232528;
 }
 .container{
-    display:flex;
+    display:grid;
     flex-direction: row;
     border: 2px solid #5B91E2;
   }
   .box{
-        width: 250px;
-        height: 150px;
-        border: 1px solid #5B91E2;
+    display: flex;   
+    width: 250px;
+    height: 150px;
+    border: 1px solid #5B91E2;
     }
