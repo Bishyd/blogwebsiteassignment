@@ -9,3 +9,13 @@ h1 {
 p {
   color: #232528;
 }
+.container{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid #5B91E2;
+  }
+  .box{
+        width: 250px;
+        height: 150px;
+        border: 1px solid #5B91E2;
+    }
