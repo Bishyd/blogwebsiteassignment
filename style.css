@@ -11,7 +11,8 @@ p {
 }
 .container{
     display:grid;
-    flex-direction: row;
+    grid-template-rows: 160px 60px;
+    grid-template-columns: 160px 60px;
     border: 2px solid #5B91E2;
   }
   .box{
